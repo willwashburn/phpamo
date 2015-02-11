@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/willwashburn/CamoClient.svg)](https://travis-ci.org/willwashburn/CamoClient) [![Latest Stable Version](https://poser.pugx.org/willwashburn/camo/v/stable.svg)](https://packagist.org/packages/willwashburn/camo) [![Total Downloads](https://poser.pugx.org/willwashburn/camo/downloads.svg)](https://packagist.org/packages/willwashburn/camo) [![License](https://poser.pugx.org/willwashburn/camo/license.svg)](https://packagist.org/packages/willwashburn/camo)
 # CamoClient
 A PHP client for Camo - the SSL image proxy.
+
+[![Build Status](https://travis-ci.org/willwashburn/CamoClient.svg)](https://travis-ci.org/willwashburn/CamoClient) [![Latest Stable Version](https://poser.pugx.org/willwashburn/camo/v/stable.svg)](https://packagist.org/packages/willwashburn/camo) [![Total Downloads](https://poser.pugx.org/willwashburn/camo/downloads.svg)](https://packagist.org/packages/willwashburn/camo) [![License](https://poser.pugx.org/willwashburn/camo/license.svg)](https://packagist.org/packages/willwashburn/camo)
+
 
 For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camohttps://github.com/atmos/camo) repository.
 
