@@ -1,5 +1,5 @@
 {
-    "name": "willwashburn/camo",
+    "name": "willwashburn/phpamo",
     "description": "A PHP client for Camo - the SSL image proxy.",
     "version": "0.0.1",
     "type": "library",
