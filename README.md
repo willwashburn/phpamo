@@ -1,7 +1,6 @@
-# Phpamo
 [![Build Status](https://travis-ci.org/willwashburn/Phpamo.svg)](https://travis-ci.org/willwashburn/CamoClient)
 [![Code Climate](https://codeclimate.com/github/willwashburn/CamoClient/badges/gpa.svg)](https://codeclimate.com/github/willwashburn/CamoClient) [![Latest Stable Version](https://poser.pugx.org/willwashburn/camo/v/stable.svg)](https://packagist.org/packages/willwashburn/camo) [![Total Downloads](https://poser.pugx.org/willwashburn/camo/downloads.svg)](https://packagist.org/packages/willwashburn/camo) [![License](https://poser.pugx.org/willwashburn/camo/license.svg)](https://packagist.org/packages/willwashburn/camo)
-
+# Phpamo
 A PHP library for Camo - the SSL image proxy 
 
 For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camo) repository.
