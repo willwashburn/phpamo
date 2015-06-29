@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/willwashburn/Phpamo.svg)](https://travis-ci.org/willwashburn/CamoClient)
 
-# Phpamo
-A PHP library for Camo - the SSL image proxy 
+
+# phpamo [![Build Status](https://travis-ci.org/willwashburn/phpamo.svg)](https://travis-ci.org/willwashburn/phpamo)
+A PHP library for Camo - the SSL image proxy :lock:
 
 For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camo) repository.
 
