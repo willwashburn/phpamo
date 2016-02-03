@@ -29,8 +29,8 @@ Thanks to [Andrew Kane](https://github.com/ankane/camo/) for creating the ruby c
 
 Everyone is encouraged to help improve this project. Here are a few ways you can help:
 
-- [Report bugs](https://github.com/willwashburn/camoclient/issues)
-- Fix bugs and [submit pull requests](https://github.com/willwashburn/camoclient/pulls)
+- [Report bugs](https://github.com/willwashburn/phpamo/issues)
+- Fix bugs and [submit pull requests](https://github.com/willwashburn/phpamo/pulls)
 - Write, clarify, or fix documentation
 - Suggest or add new features
 
