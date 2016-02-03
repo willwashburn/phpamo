@@ -1,6 +1,4 @@
-<?php
-
-namespace WillWashburn\Camo;
+<?php namespace WillWashburn\Phpamo;
 
 use Exception;
 

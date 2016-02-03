@@ -17,7 +17,7 @@ class ProxyUrlTest extends PHPUnit_Framework_TestCase
      */
     public function test_proxy_url_returns_correct_link($original, $proxy)
     {
-        $camo = new WillWashburn\Camo\Client();
+        $camo = new WillWashburn\Phpamo\Client();
         $camo->setDomain('www.example.com');
         $camo->setCamoKey('somekeythatisuniqueandstufflikethat');
 

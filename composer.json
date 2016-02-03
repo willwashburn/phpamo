@@ -1,7 +1,7 @@
 {
     "name": "willwashburn/phpamo",
     "description": "A PHP client for Camo - the SSL image proxy.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "library",
     "keywords": [
         "proxy",
@@ -25,7 +25,7 @@
 },
     "autoload": {
         "psr-4": {
-            "WillWashburn\\Camo\\": "src/"
+            "WillWashburn\\Phpamo\\": "src/"
         }
     },
     "minimum-stability": "stable"
