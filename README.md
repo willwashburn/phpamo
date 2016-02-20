@@ -1,7 +1,7 @@
 
 
 # phpamo [![Build Status](https://travis-ci.org/willwashburn/phpamo.svg)](https://travis-ci.org/willwashburn/phpamo)
-> **Note:** It's pronounced Fa-ham-mo. I'll be honest, I've picked better names :)
+> **Note:** It's pronounced Fa-fah-mo. I'll be honest, I've picked better names :)
 
 A PHP library to create urls for Camo - the SSL image proxy :lock:
 
