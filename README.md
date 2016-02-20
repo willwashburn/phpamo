@@ -1,23 +1,47 @@
 
 
 # phpamo [![Build Status](https://travis-ci.org/willwashburn/phpamo.svg)](https://travis-ci.org/willwashburn/phpamo)
-A PHP library for Camo - the SSL image proxy :lock:
+> **Note:** It's pronounced Fa-ham-mo. I'll be honest, I've picked better names :)
+
+A PHP library to create urls for Camo - the SSL image proxy :lock:
 
 For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camo) repository.
 
 ## Installation
 ```composer require willwashburn/phpamo```
 
-Alternatively, add ```"willwashburn/phpamo": "0.0.2"``` to your composer.json
+Alternatively, add ```"willwashburn/phpamo": "1.0.0"``` to your composer.json
 
 ## Usage
+If you're just looking to get going with the defaults:
 ```PHP
-  $camo = new WillWashburn\Phpamo\Client();
-  $camo->setDomain('YOUR_CAMO_DOMAIN');
-  $camo->setCamoKey('YOUR_CAMO_KEY');
-  
-  $camo->proxy($url); // returns the proxy url 
+    $phpamo = new \WillWashburn\Phpamo\Phpamo(
+       'YOUR_CAMO_KEY',
+       'YOUR_CAMO_DOMAIN'
+    );
+    
+    $phpamo->camo($url); // returns a url guaranteed to be https:// ! 
 ```  
+
+Perhaps you only want to camoflauge urls that are http?
+```PHP
+    $phpamo->camoHttpOnly($url); // returns a url guaranteed to be https:// ! 
+
+```
+
+If you'd like to use query string urls instead of the default hex urls, just 
+pass in the query string formatter when creating your object
+
+```PHP
+    $phpamo = new \WillWashburn\Phpamo\Phpamo(
+       'YOUR_CAMO_KEY',
+       'YOUR_CAMO_DOMAIN',
+       new QueryStringFormatter(new QueryStringEncoder)
+    );
+    
+    $phpamo->camo($url); // returns a https url in the query string format 
+
+```
   
 ## Credit
 
