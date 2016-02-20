@@ -1,9 +1,9 @@
 
 
 # phpamo [![Build Status](https://travis-ci.org/willwashburn/phpamo.svg)](https://travis-ci.org/willwashburn/phpamo)
-> **Note:** It's pronounced Fa-fah-mo. I'll be honest, I've picked better names :)
-
 A PHP library to create urls for Camo - the SSL image proxy :lock:
+
+> **Note:** It's pronounced Fa-fah-mo. I'll be honest, I've picked better names
 
 For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camo) repository.
 
@@ -20,12 +20,12 @@ If you're just looking to get going with the defaults:
        'YOUR_CAMO_DOMAIN'
     );
     
-    $phpamo->camo($url); // returns a url guaranteed to be https:// ! 
+    $phpamo->camo($url); // returns a url guaranteed to be https
 ```  
 
 Perhaps you only want to camoflauge urls that are http?
 ```PHP
-    $phpamo->camoHttpOnly($url); // returns a url guaranteed to be https:// ! 
+    $phpamo->camoHttpOnly($url); // returns a https url only when http url is used, otherwise returns the url
 
 ```
 
