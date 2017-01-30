@@ -70,10 +70,9 @@ class Phpamo
      */
     public function camoHttpOnly($url)
     {
+        $parsed = parse_url($url);
 
-        $url = parse_url($url);
-
-        if ( $url['scheme'] == 'https' ) {
+        if ( $parsed['scheme'] == 'https' ) {
             return $url;
         }
 
