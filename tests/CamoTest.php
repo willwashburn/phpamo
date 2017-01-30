@@ -98,4 +98,20 @@ class ProxyUrlTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($phpamo->camoHttpOnly($https[0]),$https[1]);
     }
 
+    public function test_key_sanity_checks() {
+
+        $this->setExpectedException('Exception');
+
+        $phpamo = new \WillWashburn\Phpamo\Phpamo(null, null);
+
+    }
+
+
+    public function test_domain_sanity_checks() {
+
+        $this->setExpectedException('Exception');
+
+        $phpamo = new \WillWashburn\Phpamo\Phpamo('somekeythatisuniquneandstufflikethat', null);
+    }
+
 }
