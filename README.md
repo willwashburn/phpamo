@@ -3,7 +3,7 @@ A PHP library to create urls for Camo - the SSL image proxy :lock:
 
 > **Note:** It's pronounced Fa-fah-mo. I'll be honest, I've picked better names. Its like the "[Name Game](https://en.wikipedia.org/wiki/The_Name_Game)" for camo. Kind of. Ok whatever it doesn't make sense but the library still works!
 
-For more infomration about Camo, please see the [atmos/camo] (https://github.com/atmos/camo) repository.
+For more infomration about Camo, please see the [atmos/camo](https://github.com/atmos/camo) repository.
 
 ## Installation
 ```composer require willwashburn/phpamo```
