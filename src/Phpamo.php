@@ -72,7 +72,7 @@ class Phpamo
     {
         $parsed = parse_url($url);
 
-        if (isset($parsed['scheme']) {
+        if ( isset($parsed['scheme']) ) {
             if ( $parsed['scheme'] == 'https' ) {
                 return $url;
             }
