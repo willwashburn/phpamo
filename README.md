@@ -44,8 +44,7 @@ pass in the query string formatter when creating your object
 ```
 
 ## Change Log
-- v1.0.3 - Fix typo
-- v1.0.2 - ~Fix notice on scheme key when missing~ (broken build)
+- v1.0.4 - Fix notice on scheme key when missing
 - v1.0.1 - Fix httpOnly method
 - v1.0.0 - Add support for query string formatted camo urls
 - v0.0.2 - Fix namespacing issues
