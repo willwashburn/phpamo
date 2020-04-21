@@ -8,7 +8,7 @@ For more infomration about Camo, please see the [atmos/camo](https://github.com/
 ## Installation
 ```composer require willwashburn/phpamo```
 
-Alternatively, add ```"willwashburn/phpamo": "1.0.1"``` to your composer.json
+Alternatively, add ```"willwashburn/phpamo": "1.0.*"``` to your composer.json
 
 ## Usage
 If you're just looking to get going with the defaults:
