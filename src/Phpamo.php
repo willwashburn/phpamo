@@ -72,8 +72,10 @@ class Phpamo
     {
         $parsed = parse_url($url);
 
-        if ( $parsed['scheme'] == 'https' ) {
-            return $url;
+        if (isset($parsed['scheme']) {
+            if ( $parsed['scheme'] == 'https' ) {
+                return $url;
+            }
         }
 
         return $this->camo($url);
