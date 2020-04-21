@@ -22,7 +22,7 @@ If you're just looking to get going with the defaults:
     $phpamo->camo($url); 
 ```  
 
-Perhaps you only want to camoflauge urls that are http?
+Perhaps you only want to camouflage urls that are http?
 ```PHP
     // returns a https url only when http url is used
     // otherwise returns the url
