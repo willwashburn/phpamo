@@ -1,7 +1,7 @@
 {
   "name": "willwashburn/phpamo",
   "description": "A PHP library to create urls for Camo - the SSL image proxy",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "library",
   "keywords": [
     "proxy",
